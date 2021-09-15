@@ -15,7 +15,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    skey='',
-    openid=''
+    skey:'',
+    openid:''
   }
 })
