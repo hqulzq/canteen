@@ -1,0 +1,4 @@
+<!--pages/entrance.wxml-->
+<view>
+<button class="login_btn" type="default" lang="zh_CN" bindtap="authorization" >微信登录</button>
+</view>

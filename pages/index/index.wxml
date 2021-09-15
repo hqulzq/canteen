@@ -1,0 +1,53 @@
+<view class="topArea">
+
+  <view class="search_input">
+    <navigator url="/pages/search/search">
+      <text decode="{{true}}">&emsp;</text>
+      <text class="iconfont icon-sousuo">搜索菜品或餐厅</text>
+    </navigator>
+  </view>
+
+  <view class="topCircular">
+    <view class="circularText1">
+      {{ quantityOfHeat}}
+    </view>
+    <view class="circularText2">
+      <text class="circularFont2">热量记录</text>
+    </view>
+  </view>
+
+  <view class="topCircular2">
+     <image>
+     </image>
+    </view>
+</view>
+
+<view class="buttomArea">
+
+  <view class="buttom_box" wx:for="{{menuList}}" wx:key="id">
+
+    <view class="buttom_box_title">
+      {{item.name}}
+    </view>
+
+    <view class="buttom_box_down">
+
+      <view class="buttom_box_img">
+        <image mode="widthFix" src="{{item.img}}"></image>
+      </view>
+
+      <view class="buttom_box_describe">
+
+        <view class="buttom_box_details">
+          {{item.text}}
+        </view>
+
+        <view class="buttom_box_author">
+          {{item.cateen}}
+        </view>
+
+      </view>
+    </view>
+
+  </view>
+</view>

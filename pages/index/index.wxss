@@ -1,0 +1,105 @@
+page{
+  background-color: rgb(251,247,238);
+}
+
+.topArea{
+  width: 100%;
+  height: 400rpx;
+  background-color: rgb(168,173,115);
+}
+
+.topArea .search_input{
+  font-size: 27rpx;
+  position: absolute; 
+  margin-top: 30rpx;
+  margin-left:10%;
+  border-radius: 5px;
+  height: 40rpx;
+  width: 80%;
+  background-color:rgb(135,143,65);
+  color:rgba(255,255,255,0.5);
+}
+
+.topArea .topCircular{
+  position: absolute;
+  height: 170rpx;
+  width: 170rpx;
+  margin-top: 120rpx;
+  margin-left: 125rpx;
+  border-radius: 100%;
+  border: 25rpx solid rgb(135,143,65);
+  background-color: white;
+}
+
+.topArea .topCircular .circularText1{
+
+  padding-top: 45rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: rgb(173,128,91);
+}
+
+.topArea .topCircular .circularText2{
+  text-align: center;
+  font-size: 20rpx;
+  color: rgba(173,128,91,0.5);
+}
+
+.topArea .topCircular2{
+  position: absolute;
+  height: 125rpx;
+  width: 125rpx;
+  margin-top: 160rpx;
+  margin-left: 440rpx;
+  border-radius: 100%;
+  background-color:  rgb(135,143,65);
+}
+
+.buttomArea .buttom_box{
+  height: 230rpx;
+  margin: 1%;
+  border: 5rpx solid rgb(212,189,168);
+}
+
+.buttomArea .buttom_box .buttom_box_title{
+  padding-top: 12rpx;
+  padding-left: 5%;
+  font-size: 31rpx;
+  font-weight: 251;
+}
+
+.buttomArea .buttom_box .buttom_box_down{
+  padding-left: 5%;
+  display:flex;
+  height: 180rpx;
+  padding-top: 20rpx;
+}
+
+.buttomArea .buttom_box .buttom_box_down .buttom_box_img{
+  flex: 2.5;
+}
+
+.buttomArea .buttom_box .buttom_box_down .buttom_box_img image{
+  width: 100%;
+}
+
+.buttomArea .buttom_box .buttom_box_down .buttom_box_describe{
+  padding-left: 10rpx;
+  flex: 7;
+  font-size: 30rpx;
+}
+
+.buttomArea .buttom_box .buttom_box_down .buttom_box_describe .buttom_box_details{
+  color: rgb(157,157,157);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+.buttomArea .buttom_box .buttom_box_down .buttom_box_describe .buttom_box_author{
+  padding-top: 25rpx;
+  font-size: 30rpx;
+  color: rgb( 163,163,163);
+}
+

@@ -1,0 +1,42 @@
+page{
+  background-color: rgb(251,247,238);
+ }
+
+ .searchArea{
+   font-size: 30rpx;
+ }
+ 
+ .searchArea .searchInput{
+   position: absolute;
+   float: left;
+   border: 5rpx solid rgb(168,173,115);
+   border-radius: 15rpx;
+   width: 70%;
+   height: 30rpx;
+   margin-top: 5%;
+   margin-left: 10%;
+   color: rgba(0, 0, 0, 0.5);
+ }
+ 
+ .searchArea .searchButton{
+   margin-top: 5%;
+   margin-left: 72%;
+   text-align: center;
+   position: fixed;
+   width: 8%;
+   height: 28rpx;
+   font-size: 40rpx;
+   border: 5rpx solid rgb(168,173,115);
+   border-radius: 15rpx;
+ }
+
+ .searchArea .search_button{
+   padding: 0;
+   z-index: 100;
+  position: fixed;
+  margin-top: 5%;
+  margin-left: 72%;
+  width: 9%;
+  height: 50rpx;
+  background-color:rgba(100, 100, 160, 0);
+}

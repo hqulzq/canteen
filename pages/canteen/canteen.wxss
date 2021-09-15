@@ -1,0 +1,26 @@
+page{
+  background-color: rgb(251,247,238);
+}
+.canteen_box{
+  border-radius: 10rpx;
+ margin: auto;
+ margin-top: 5vh;
+ width: 90%;
+ height: 90vh;
+ border: 5rpx solid rgb(212,189,168);
+}
+.canteen_box .box{
+  border-radius: 20rpx;
+  float: left;
+  margin-top: 9%;
+  margin-left: 12%;
+  width: 30%;
+  height: 120rpx;
+  border: 5rpx solid rgb(212,189,168);
+  text-align: center;
+  line-height: 120rpx;
+  font-size: large;
+  font-weight:bold;
+  color: rgb(173,128,91);
+  background-color:  rgb(168,173,115);
+}

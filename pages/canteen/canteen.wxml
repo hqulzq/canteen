@@ -1,0 +1,5 @@
+<view class="canteen_box">
+ <view class="box"  wx:for="{{canteenList}}" wx:key="id">
+ {{item.name}}
+ </view>
+</view>

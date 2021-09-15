@@ -1,0 +1,50 @@
+page {
+  background-color: rgb(251, 247, 238);
+}
+
+.topArea {
+  margin-top: 8%;
+  margin-left: 5%;
+  height: 15vh;
+  width: 90%;
+}
+
+.topArea .topCircular {
+  float: left;
+  margin-left: 5%;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 100%;
+  border: 5rpx solid rgb(135, 143, 65);
+}
+
+.topArea .topRectangle {
+  padding-left: 20rpx;
+  font-size: 29rpx;
+  float: left;
+  margin-left: 5%;
+  width: 60%;
+  height: 150rpx;
+  border: 5rpx solid rgb(135, 143, 65);
+}
+
+.change {
+  margin-top: 6vh;
+  border-radius: 50%;
+  width: 80%;
+  margin-left: 10%;
+  height: 10vh;
+  border: 5rpx solid rgb(135, 143, 65);
+}
+
+.historyAndPayAndMessageAndHealth{
+  margin-top: 5vh;
+  width: 80%;
+  margin-left: 10%;
+  height: 9vh;
+  border: 5rpx solid rgb(135, 143, 65);
+  text-align: center;
+  line-height: 10vh;
+  font-weight: bold;
+  font-size: 38rpx;
+}

@@ -1,0 +1,21 @@
+.topArea{
+  background-color: rgb(251,247,238);
+  height: 93vh;
+}
+.WtAppraise{
+  float: left;
+  height: 7vh;
+  width: 49.5%;
+  text-align: center;
+  line-height: 7vh;
+  background-color:  rgb(135,143,65);
+}
+.LkAppraise{
+  float: left;
+  height: 7vh;
+  width: 49.5%;
+  border-left: 5rpx solid black;
+  text-align: center;
+  line-height: 7vh;
+  background-color:  rgb(135,143,65);
+}

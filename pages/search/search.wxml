@@ -1,0 +1,5 @@
+<view class="searchArea">
+    <input type="text" placeholder=" 点击搜索菜品或餐厅" class="searchInput"></input>
+    <input type="text" disabled="disabled"  class="searchButton iconfont icon-sousuo" ></input> 
+    <button class="search_button" bindtap="handleSearch"></button>
+</view>

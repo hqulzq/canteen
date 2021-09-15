@@ -1,0 +1,9 @@
+<view>
+<view class="topArea"></view>
+ <view class="WtAppraise" bindtap="">
+  我要评价
+ </view>
+ <view class="LkAppraise">
+  查看历史评价
+ </view>
+</view>

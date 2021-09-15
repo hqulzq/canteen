@@ -1,0 +1,34 @@
+<view>
+ <view class="topArea">
+   <image class="topCircular" src="../../img/1 (1).jpg"></image>
+   <view class="topRectangle">
+   <text>姓名：李宗庆\n</text>
+   <text>年级：大二\n</text>
+   <text>学院：计算机科学与技术\n</text>
+   <text> 学号：2025121018\n</text>
+   </view>
+ </view>
+
+ <view class="change">
+   <view class="changeArea">
+
+   </view> 
+ </view>
+
+ <navigator url="../history/history" class="historyAndPayAndMessageAndHealth">
+   付费服务
+ </navigator>
+
+ <navigator url="../history/history" class="historyAndPayAndMessageAndHealth">
+   历史就餐统计
+ </navigator>
+
+ <navigator url="../message/message" class="historyAndPayAndMessageAndHealth">
+  通知信息
+ </navigator>
+  
+ <navigator url="../health/health" class="historyAndPayAndMessageAndHealth">
+  健康状况
+ </navigator>
+
+</view>

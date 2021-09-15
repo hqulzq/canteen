@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/canteen/canteen",
+          "pathName": "pages/canteen/canteen",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/pCenter/pCenter",
+          "pathName": "pages/pCenter/pCenter",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/appraise/appraise",
+          "pathName": "pages/appraise/appraise",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
